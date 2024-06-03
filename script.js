@@ -31,13 +31,13 @@ const questions = [
         question: "Bei welchen Ereignissen bestand tatsächlich die Gefahr einer nuklearen Katastrophe:",
         answers: [
             { text: "Berlin-Krise", correct: false},
-            { text: "Karibikkrise", correct: true},
+            { text: "Kubakrise", correct: true},
             { text: "Kriege in Vietnam", correct: false},
             { text: "Kriege in Afghanistan", correct: false},
     ]
     },
     {
-        question: "In welchem ​​Jahr findet die Warschauer Vertragsorganisation statt:",
+        question: "In welchem ​​Jahr findet die Warschauer Pakt statt:",
         answers: [
             { text: "1955", correct: true},
             { text: "1949", correct: false},
@@ -48,9 +48,9 @@ const questions = [
     {
         question: "Nennen Sie die politische Persönlichkeit, die als „Vater“ des „Kalten Krieges“ gilt:",
         answers: [
-            { text: "G. Truman", correct: false},
+            { text: "G. Truman", correct: true},
             { text: "D. Eisenhower", correct: false},
-            { text: "U. Churchill", correct: true},
+            { text: "U. Churchill", correct: false},
             { text: "K. Adenauer", correct: false},
     ]
     },
@@ -75,18 +75,18 @@ const questions = [
     {
         question: "„Von Stettin an der Ostsee bis Brest an der Adria senkte sich der „Eiserne Vorhang“ über den Kontinent“ – dazu gehört diese Aussage",
         answers: [
-            { text: "V. Churchill", correct: false},
+            { text: "V. Churchill", correct: true},
             { text: "H. Truman", correct: false},
-            { text: "K. Adenauer", correct: true},
+            { text: "K. Adenauer", correct: false},
             { text: "J. Marshall", correct: false},
     ]
     },
     {
         question: "Nennen Sie die Führer der USA und der UdSSR, die während der Karibikkrise gezwungen waren, miteinander zu verhandeln, um den Ausbruch des Dritten Weltkriegs zu verhindern",
         answers: [
-            { text: "H. Truman und M. Chruschtschow", correct: false},
-            { text: "J. Kennedy und M. Chruschtschow", correct: false},
-            { text: "J. Kennedy und Y. Stalin", correct: true},
+            { text: "H. Truman und N. Chruschtschow", correct: false},
+            { text: "J. Kennedy und N. Chruschtschow", correct: true},
+            { text: "J. Kennedy und Y. Stalin", correct: false},
             { text: "D. Eisenhower und L. Breschnew.", correct: false},
     ]
     },
